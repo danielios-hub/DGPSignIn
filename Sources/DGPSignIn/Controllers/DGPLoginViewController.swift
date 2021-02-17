@@ -58,7 +58,7 @@ internal class DGPLoginViewController: UIViewController {
     
     // MARK: actions
     
-    @IBAction func actionLogin() {
+    @objc func actionLogin() {
         let valid = validData()
         
         if valid.error {
@@ -76,7 +76,7 @@ internal class DGPLoginViewController: UIViewController {
         delegate?.dgp_SignIn(nav, didSelectLoginWithUsername: username, password: password)
     }
     
-    func actionRegister() {
+    @objc func actionRegister() {
         didPressRegister?()
     }
     

@@ -59,7 +59,7 @@ internal class DGPRegisterViewController: UIViewController {
     }
     // MARK: actions
 
-    func doRegister() {
+    @objc func doRegister() {
         let valid = validData()
         
         if valid.error {
