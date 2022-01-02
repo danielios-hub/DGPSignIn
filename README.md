@@ -1,3 +1,3 @@
 # DGPSignIn
 
-A description of this package.
+Login/Register reusable module
